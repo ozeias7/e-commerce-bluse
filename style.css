@@ -328,6 +328,12 @@ footer .copyright p {
   bottom: -10px;
 }
 
+footer .copyright a {
+  position:relative;
+  left: 750px;
+  bottom: 35px;
+}
+
 footer .copyright a{ 
    color: #000;
    width: 38px;
