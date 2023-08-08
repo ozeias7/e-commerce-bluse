@@ -99,7 +99,7 @@ hr {
 .navbar i:hover,
 .navbar-light .navbar-nav .nav-link.active,
  .navbar i.active{
-    color: #fb774b;
+    color: #272524;
 } 
 
 .navbar i {
@@ -119,9 +119,16 @@ hr {
   color: black;
 }
 
+/*Mobile */
+
+navbar-light .navbar-toggler {
+      border: none;
+      outline: none;
+}
+
 #bar:hover,
 #bar.active{
-  color: #fff;
+  color: #9b9595;
 }
 
 /* Mobile Now */
@@ -132,9 +139,10 @@ hr {
     background-color: #fb774b;
   }
 
+
   body > nav > div > button:hover #bar,
   body > nav > div > button:focus #bar{
-    color: #fff;
+    color: #f8f1f1;
   }
 
   #navbarSupportedContent > .navbar-light {
